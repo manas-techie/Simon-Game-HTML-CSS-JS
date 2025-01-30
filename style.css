@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+
+ .button-div{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 25%;
+    border: 5px solid black;
+    cursor: pointer;
+ }
+
+ .button-container{
+    display: flex;
+    justify-content: center;
+
+ }
+ 
+ .yellow{
+    background-color: yellow;
+ }
+
+ .red{
+    background-color: red;
+ }
+
+ .purple{
+    background-color: purple;
+ }
+
+ .blue{
+    background-color: blue;
+ }
+
+ .flash{
+   background-color: white;
+ }
