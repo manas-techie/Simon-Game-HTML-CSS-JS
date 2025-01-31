@@ -9,7 +9,7 @@ let level = 0;
 let h3 = document.querySelector('h3');
 let allBtns = document.querySelectorAll(".button-div");
 
-document.addEventListener("keypress",function(){
+document.addEventListener("keypress,touchstart",function(){
     if(started == false){
         console.log("Game Started.")
         started = true ;
@@ -67,7 +67,7 @@ function checkColor(idx){
 
 
 for(btn of allBtns){
-    btn.addEventListener('click',btnPress);
+    btn.addEventListener('click,touchstart',btnPress);
 }
 
 function restart(){
